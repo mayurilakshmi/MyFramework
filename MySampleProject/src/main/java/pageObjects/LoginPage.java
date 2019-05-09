@@ -8,7 +8,8 @@ public class LoginPage {
 	public WebDriver driver;
 	By email=By.cssSelector("[type='email']");
 	By password=By.cssSelector("[type='password']");
-	 public LoginPage(WebDriver driver) {
+	By login=By.cssSelector("[type='submit']");
+			public LoginPage(WebDriver driver) {
 		// TODO Auto-generated constructor stub
 		 this.driver=driver;
 		 
@@ -19,6 +20,9 @@ public class LoginPage {
 	 }
 	 public WebElement getPassword() {
 		 return driver.findElement(password);
+	 }
+	 public WebElement getLoginAccount() {
+		 return driver.findElement(login);
 	 }
 
 }

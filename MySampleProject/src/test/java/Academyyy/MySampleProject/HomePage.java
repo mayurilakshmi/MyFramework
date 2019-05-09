@@ -17,8 +17,9 @@ public class HomePage  extends Base{
 		LandingPage l=new LandingPage(driver);
 		l.getLogIn().click();
 		LoginPage lp=new LoginPage(driver);
-		lp.getEmail().sendKeys("jhiugjag");
+		lp.getEmail().sendKeys("jhiugjag@gmail.com");
 		lp.getPassword().sendKeys("hdgdnddm");
+		lp.getLoginAccount().click();
 		
 		
 		
