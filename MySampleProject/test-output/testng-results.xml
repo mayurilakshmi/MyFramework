@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="53896" started-at="2019-05-09T12:11:36Z" finished-at="2019-05-09T12:12:30Z">
+  <suite name="Default suite" duration-ms="100155" started-at="2019-05-09T14:05:12Z" finished-at="2019-05-09T14:06:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="53896" started-at="2019-05-09T12:11:36Z" finished-at="2019-05-09T12:12:30Z">
+    <test name="Default test" duration-ms="100155" started-at="2019-05-09T14:05:12Z" finished-at="2019-05-09T14:06:52Z">
       <class name="Academyyy.MySampleProject.HomePage">
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academyyy.MySampleProject.HomePage@23ceabc1]" name="basePageNavigation" duration-ms="22465" started-at="2019-05-09T17:41:36Z" data-provider="getData" finished-at="2019-05-09T17:41:58Z">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academyyy.MySampleProject.HomePage@23ceabc1]" name="basePageNavigation" duration-ms="56206" started-at="2019-05-09T19:35:12Z" data-provider="getData" finished-at="2019-05-09T19:36:08Z">
           <params>
             <param index="0">
               <value>
@@ -28,7 +28,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academyyy.MySampleProject.HomePage@23ceabc1]" name="basePageNavigation" duration-ms="31403" started-at="2019-05-09T17:41:58Z" data-provider="getData" finished-at="2019-05-09T17:42:30Z">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academyyy.MySampleProject.HomePage@23ceabc1]" name="basePageNavigation" duration-ms="43898" started-at="2019-05-09T19:36:08Z" data-provider="getData" finished-at="2019-05-09T19:36:52Z">
           <params>
             <param index="0">
               <value>
