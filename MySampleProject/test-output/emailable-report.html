@@ -31,17 +31,31 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">4</td><td class="numi">4</td><td class="numi">0</td><td class="numi">0</td><td class="numi">80.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi">0</td><td class="numi">146.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Test1</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">31.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Test2</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">14.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Test3</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">4</td><td class="numi">4</td><td class="numi">0</td><td class="numi">0</td><td class="numi">192.9 seconds</td><td colspan="2">&nbsp;</td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
 <tr><th colspan="4">Test &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="2">Academyyy.MySampleProject.HomePage</td><td><a href="#m1"><b>basePageNavigation</b>  </a></td><td class="numi">2</td><td>1557476853556</td><td class="numi">50777</td></tr><tr class="passedodd"><td><a href="#m2"><b>basePageNavigation</b>  </a></td><td class="numi">2</td><td>1557476853556</td><td class="numi">50777</td></tr>
-<tr class="passedeven"><td rowspan="1">Academyyy.MySampleProject.ValidateTitle</td><td><a href="#m3"><b>basePageNavigation</b>  </a></td><td class="numi">1</td><td>1557476904337</td><td class="numi">99</td></tr>
-<tr class="passedodd"><td rowspan="1">Academyyy.MySampleProject.ValidateNavigation</td><td><a href="#m4"><b>basePageNavigation</b>  </a></td><td class="numi">1</td><td>1557476904439</td><td class="numi">91</td></tr>
+<tr class="passedodd"><td rowspan="2">Academyyy.MySampleProject.HomePage</td><td><a href="#m1"><b>basePageNavigation</b>  </a></td><td class="numi">2</td><td>1557493405688</td><td class="numi">99114</td></tr><tr class="passedodd"><td><a href="#m2"><b>basePageNavigation</b>  </a></td><td class="numi">2</td><td>1557493405688</td><td class="numi">99114</td></tr>
+<tr><th colspan="4">Test1 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Academyyy.MySampleProject.ValidateTitle</td><td><a href="#m3"><b>basePageNavigation</b>  </a></td><td class="numi">1</td><td>1557493536878</td><td class="numi">185</td></tr>
+<tr><th colspan="4">Test2 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Academyyy.MySampleProject.ValidateNavigation</td><td><a href="#m4"><b>basePageNavigation</b>  </a></td><td class="numi">1</td><td>1557493551080</td><td class="numi">108</td></tr>
 </table>
 <h1>Test</h1>
-<h2 id="m1">Academyyy.MySampleProject.ValidateNavigation:basePageNavigation</h2>
+<h2 id="m1">Academyyy.MySampleProject.HomePage:basePageNavigation</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>nonrestricted@gmail.com</td>
+<td>35678858</td>
+<td>ehry</td>
+</tr>
+</table>
 <p class="totop"><a href="#summary">back to summary</a></p>
 <h2 id="m2">Academyyy.MySampleProject.HomePage:basePageNavigation</h2>
 <table cellspacing="0" cellpadding="0" class="result">
@@ -52,15 +66,11 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 </tr>
 </table>
 <p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Test1</h1>
 <h2 id="m3">Academyyy.MySampleProject.ValidateTitle:basePageNavigation</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m4">Academyyy.MySampleProject.HomePage:basePageNavigation</h2>
-<table cellspacing="0" cellpadding="0" class="result">
-<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
-<tr class="param stripe"><td>nonrestricted@gmail.com</td>
-<td>35678858</td>
-<td>ehry</td>
-</tr>
-</table>
+<h1>Test2</h1>
+<h2 id="m4">Academyyy.MySampleProject.ValidateNavigation:basePageNavigation</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Test3</h1>
 </body></html>
