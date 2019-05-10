@@ -2,6 +2,8 @@ package Academyyy.MySampleProject;
 
 import java.io.IOException;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
@@ -12,7 +14,7 @@ import pageObjects.LoginPage;
 import resources.Base;
 
 public class HomePage  extends Base{
-	
+	public static Logger log=LogManager.getLogger(Base.class.getName());
 	  @BeforeTest public void initialise() throws IOException {
 		  driver=initialiseDriver();
 	  }
@@ -27,7 +29,7 @@ public class HomePage  extends Base{
 		lp.getEmail().sendKeys(username);
 		lp.getPassword().sendKeys(password);
 		System.out.println(text);
-		
+		log.info("executed");
 		lp.getLoginAccount().click();
 	}
 	@DataProvider
