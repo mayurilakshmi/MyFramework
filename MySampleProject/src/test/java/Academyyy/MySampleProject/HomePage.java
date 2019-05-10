@@ -12,14 +12,14 @@ import pageObjects.LoginPage;
 import resources.Base;
 
 public class HomePage  extends Base{
-	/*
-	 * @BeforeTest public void initialise() throws IOException {
-	 * 
-	 * }
-	 */
+	
+	  @BeforeTest public void initialise() throws IOException {
+		  driver=initialiseDriver();
+	  }
+	 
 	@Test(dataProvider="getData")
 	public void basePageNavigation(String username,String password,String text) throws IOException {
-		driver=initialiseDriver();
+		
 		driver.get(prop.getProperty("url"));
 		LandingPage l=new LandingPage(driver);
 		l.getLogIn().click();
@@ -46,9 +46,9 @@ public class HomePage  extends Base{
 		
 		
 	}
-	/*
-	 * @AfterTest public void tearDown() { driver.close();
-	 * System.out.println("success1"); }
-	 */
+	
+	 @AfterTest public void tearDown() { driver.close();
+	 System.out.println("success1"); }
+	
   
 }
