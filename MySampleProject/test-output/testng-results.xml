@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="343088" started-at="2019-05-13T10:01:48Z" finished-at="2019-05-13T10:07:31Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="282228" started-at="2019-05-13T10:01:48Z" finished-at="2019-05-13T10:06:30Z">
+      <class name="Academyyy.MySampleProject.HomePage">
+        <test-method status="PASS" signature="initialise()[pri:0, instance:Academyyy.MySampleProject.HomePage@78b1cc93]" name="initialise" is-config="true" duration-ms="45074" started-at="2019-05-13T15:31:48Z" finished-at="2019-05-13T15:32:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academyyy.MySampleProject.HomePage@78b1cc93]" name="basePageNavigation" duration-ms="204193" started-at="2019-05-13T15:32:33Z" data-provider="getData" finished-at="2019-05-13T15:35:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricted@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[35678858]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ehry]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academyyy.MySampleProject.HomePage@78b1cc93]" name="basePageNavigation" duration-ms="31919" started-at="2019-05-13T15:35:57Z" data-provider="getData" finished-at="2019-05-13T15:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricted@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[35678858gnhmmrjjgrhtr]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ehryhhjrgfn]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academyyy.MySampleProject.HomePage@78b1cc93]" name="tearDown" is-config="true" duration-ms="1010" started-at="2019-05-13T15:36:29Z" finished-at="2019-05-13T15:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academyyy.MySampleProject.HomePage -->
+    </test> <!-- Test -->
+    <test name="Test1" duration-ms="23991" started-at="2019-05-13T10:06:30Z" finished-at="2019-05-13T10:06:54Z">
+      <class name="Academyyy.MySampleProject.ValidateTitle">
+        <test-method status="PASS" signature="initialise()[pri:0, instance:Academyyy.MySampleProject.ValidateTitle@1460a8c0]" name="initialise" is-config="true" duration-ms="21755" started-at="2019-05-13T15:36:30Z" finished-at="2019-05-13T15:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Academyyy.MySampleProject.ValidateTitle@1460a8c0]" name="basePageNavigation" duration-ms="100" started-at="2019-05-13T15:36:52Z" finished-at="2019-05-13T15:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academyyy.MySampleProject.ValidateTitle@1460a8c0]" name="tearDown" is-config="true" duration-ms="2128" started-at="2019-05-13T15:36:52Z" finished-at="2019-05-13T15:36:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academyyy.MySampleProject.ValidateTitle -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="36647" started-at="2019-05-13T10:06:54Z" finished-at="2019-05-13T10:07:31Z">
+      <class name="Academyyy.MySampleProject.ValidateNavigation">
+        <test-method status="PASS" signature="initialise()[pri:0, instance:Academyyy.MySampleProject.ValidateNavigation@add0edd]" name="initialise" is-config="true" duration-ms="34325" started-at="2019-05-13T15:36:54Z" finished-at="2019-05-13T15:37:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Academyyy.MySampleProject.ValidateNavigation@add0edd]" name="basePageNavigation" duration-ms="75" started-at="2019-05-13T15:37:29Z" finished-at="2019-05-13T15:37:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academyyy.MySampleProject.ValidateNavigation@add0edd]" name="tearDown" is-config="true" duration-ms="2240" started-at="2019-05-13T15:37:29Z" finished-at="2019-05-13T15:37:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academyyy.MySampleProject.ValidateNavigation -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="2" started-at="2019-05-13T10:07:31Z" finished-at="2019-05-13T10:07:31Z">
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>

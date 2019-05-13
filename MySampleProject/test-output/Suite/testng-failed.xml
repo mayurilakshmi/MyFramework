@@ -12,7 +12,7 @@
       <class name="Academyyy.MySampleProject.HomePage">
         <methods>
           <include name="initialise"/>
-          <include name="basePageNavigation" invocation-numbers="0 1"/>
+          <include name="basePageNavigation" invocation-numbers="0"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- Academyyy.MySampleProject.HomePage -->
